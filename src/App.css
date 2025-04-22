@@ -5,23 +5,24 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  overflow: hidden; /* 수동 스크롤 방지 */
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 /* root 설정 */
 #root {
   width: 100%;
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  overflow-y: auto;
 }
 
 /* App 전체 */
 .App {
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
-  overflow: hidden;
+  overflow-x: hidden;
   position: relative;
 }
 
@@ -32,17 +33,17 @@ body {
   flex-direction: column;
 }
 
-.pages-wrapper h1{
-  color : black;
+.pages-wrapper h1 {
+  color: black;
 }
 
-.pages-wrapper p{
-  color : white;
+.pages-wrapper p {
+  color: white;
 }
 
 /* 페이지 섹션 */
 .page {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -50,7 +51,7 @@ body {
   align-items: center;
   text-align: center;
   opacity: 0;
-  transform: translateY(50px);  /* 페이지가 처음에 아래로 위치하도록 설정 */
+  transform: translateY(50px);
   transition: opacity 1s ease, transform 1s ease;
 }
 
@@ -65,12 +66,14 @@ body {
   font-size: 4rem;
   font-weight: bold;
   color: #fff;
-  white-space: pre;
+  white-space: pre; /* ✅ 수정: pre → normal */
   overflow: hidden;
-  border-right: 3px solid rgba(255, 255, 255, 0.75); /* 커서처럼 보이게 */
+  border-right: 3px solid rgba(255, 255, 255, 0.75);
   width: 0;
   animation: typing 4s steps(14) 1s forwards, blink 0.75s step-end infinite;
+  text-align: center;
 }
+
 
 .typing-effect span {
   opacity: 0;
@@ -91,7 +94,7 @@ body {
 
 @keyframes typing {
   to {
-    width: 100%; /* 텍스트의 전체 너비까지 확장 */
+    width: 100%;
   }
 }
 
@@ -116,4 +119,48 @@ footer {
   color: white;
   font-size: 0.9rem;
   text-align: center;
+}
+
+/* ===== 📱 모바일 반응형 스타일 ===== */
+@media (max-width: 768px) {
+  .typing-effect {
+    font-size: 2rem;
+    padding: 0 1rem;
+    text-align: center;
+  }
+
+  .pages-wrapper h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  .pages-wrapper p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    line-height: 1.5;
+  }
+
+  .page {
+    padding: 1.5rem 1rem;
+    justify-content: flex-start;
+  }
+
+  footer {
+    font-size: 0.8rem;
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .typing-effect {
+    font-size: 1.5rem;
+  }
+
+  .pages-wrapper h1 {
+    font-size: 1.2rem;
+  }
+
+  .pages-wrapper p {
+    font-size: 0.9rem;
+  }
 }

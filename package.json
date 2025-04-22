@@ -1,8 +1,10 @@
 {
-  "name": "main-page",
+  "name": "whos-main",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://www.whatonsolve.com",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -22,6 +24,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^16.0.0",
+    "react-refresh": "^0.17.0",
     "vite": "^6.3.1"
   }
 }

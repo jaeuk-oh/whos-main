@@ -78,6 +78,7 @@ function App() {
       </div>
 
       <footer>
+        <p> contact : jaeuk.oh@WhatOnSolve.com</p>
         <p>&copy; 2025 WhatOnSolve. All rights reserved.</p>
       </footer>
     </div>
