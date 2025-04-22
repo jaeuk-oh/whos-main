@@ -65,11 +65,28 @@ body {
   font-size: 4rem;
   font-weight: bold;
   color: #fff;
-  white-space: nowrap;
+  white-space: pre;
   overflow: hidden;
   border-right: 3px solid rgba(255, 255, 255, 0.75); /* 커서처럼 보이게 */
   width: 0;
   animation: typing 4s steps(14) 1s forwards, blink 0.75s step-end infinite;
+}
+
+.typing-effect span {
+  opacity: 0;
+  display: inline-block;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.typing-effect span.appear {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
 }
 
 @keyframes typing {
