@@ -1,0 +1,241 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1780278487027,
+  "projectRoot": "/Users/jae6/AI-AGENT/whos-main",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "react",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.0.0",
+        "category": "frontend"
+      },
+      {
+        "name": "vite",
+        "version": "6.3.1",
+        "category": "build"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "vite",
+      "build": "vite build",
+      "lint": "eslint .",
+      "preview": "vite preview"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": "type-based"
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "docs",
+      "public",
+      "src"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "docs": {
+      "path": "docs",
+      "purpose": "Documentation",
+      "fileCount": 3,
+      "lastAccessed": 1780278486992,
+      "keyFiles": [
+        "CNAME",
+        "favicon.svg",
+        "index.html"
+      ]
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 2,
+      "lastAccessed": 1780278486994,
+      "keyFiles": [
+        "CNAME",
+        "favicon.svg"
+      ]
+    },
+    "src": {
+      "path": "src",
+      "purpose": "Source code",
+      "fileCount": 4,
+      "lastAccessed": 1780278486997,
+      "keyFiles": [
+        "App.css",
+        "App.jsx",
+        "index.css",
+        "main.jsx"
+      ]
+    },
+    "docs/assets": {
+      "path": "docs/assets",
+      "purpose": "Static assets",
+      "fileCount": 2,
+      "lastAccessed": 1780278486999,
+      "keyFiles": [
+        "index-CdqmuUyM.js",
+        "index-aYx2MJb-.css"
+      ]
+    },
+    "src/assets": {
+      "path": "src/assets",
+      "purpose": "Static assets",
+      "fileCount": 1,
+      "lastAccessed": 1780278487000,
+      "keyFiles": [
+        "react.svg"
+      ]
+    },
+    "src/components": {
+      "path": "src/components",
+      "purpose": "UI components",
+      "fileCount": 10,
+      "lastAccessed": 1780278487001,
+      "keyFiles": [
+        "Contact.css",
+        "Contact.jsx",
+        "Hero.css"
+      ]
+    },
+    "src/data": {
+      "path": "src/data",
+      "purpose": "Data files",
+      "fileCount": 1,
+      "lastAccessed": 1780278487001,
+      "keyFiles": [
+        "portfolio.js"
+      ]
+    }
+  },
+  "hotPaths": [
+    {
+      "path": "src/components/Hero.jsx",
+      "accessCount": 13,
+      "lastAccessed": 1780311421191,
+      "type": "file"
+    },
+    {
+      "path": "src/data/portfolio.js",
+      "accessCount": 11,
+      "lastAccessed": 1780311549765,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Hero.css",
+      "accessCount": 6,
+      "lastAccessed": 1780310274981,
+      "type": "file"
+    },
+    {
+      "path": "src/App.jsx",
+      "accessCount": 5,
+      "lastAccessed": 1780308528199,
+      "type": "file"
+    },
+    {
+      "path": "src/components/ProjectCard.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1780278798513,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Projects.jsx",
+      "accessCount": 4,
+      "lastAccessed": 1780311721833,
+      "type": "file"
+    },
+    {
+      "path": "src/App.css",
+      "accessCount": 3,
+      "lastAccessed": 1780307285154,
+      "type": "file"
+    },
+    {
+      "path": "src/components/NavDots.jsx",
+      "accessCount": 3,
+      "lastAccessed": 1780308530211,
+      "type": "file"
+    },
+    {
+      "path": "src/components/NavDots.css",
+      "accessCount": 2,
+      "lastAccessed": 1780278738758,
+      "type": "file"
+    },
+    {
+      "path": "index.html",
+      "accessCount": 2,
+      "lastAccessed": 1780278801246,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Projects.css",
+      "accessCount": 2,
+      "lastAccessed": 1780309528263,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Contact.jsx",
+      "accessCount": 2,
+      "lastAccessed": 1780311422997,
+      "type": "file"
+    },
+    {
+      "path": "src/hooks/useInView.js",
+      "accessCount": 1,
+      "lastAccessed": 1780278608495,
+      "type": "file"
+    },
+    {
+      "path": "src/index.css",
+      "accessCount": 1,
+      "lastAccessed": 1780278641881,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Skills.jsx",
+      "accessCount": 1,
+      "lastAccessed": 1780310957296,
+      "type": "file"
+    },
+    {
+      "path": "src/components/Skills.css",
+      "accessCount": 1,
+      "lastAccessed": 1780310968810,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

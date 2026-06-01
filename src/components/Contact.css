@@ -1,0 +1,74 @@
+.contact {
+  align-items: center;
+  text-align: center;
+}
+
+.contact__inner {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.contact__heading {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+}
+
+.contact__body {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  max-width: 480px;
+}
+
+/* CTA Button */
+.contact__cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.85rem 2.2rem;
+  border-radius: var(--radius);
+  background: var(--accent-grad);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  transition: box-shadow var(--dur-fast), opacity var(--dur-fast);
+}
+
+.contact__cta:hover {
+  box-shadow: 0 0 30px rgba(124, 92, 255, 0.45);
+  opacity: 0.92;
+}
+
+/* Secondary links */
+.contact__links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.contact__link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  transition: color var(--dur-fast);
+}
+
+.contact__link:hover {
+  color: var(--text-0);
+}
+
+/* Footer */
+.contact__footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  opacity: 0.6;
+}

@@ -1,0 +1,5 @@
+{"t":0,"agent":"a080cc3","agent_type":"security-reviewer","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a53a00e","agent_type":"code-reviewer","event":"agent_start","parent_mode":"none"}
+{"t":0,"agent":"a080cc3","agent_type":"security-reviewer","event":"agent_stop","success":true,"duration_ms":88919}
+{"t":0,"agent":"a53a00e","agent_type":"code-reviewer","event":"agent_stop","success":true,"duration_ms":104084}
+{"t":0,"agent":"system","event":"skill_invoked","skill_name":"run"}
